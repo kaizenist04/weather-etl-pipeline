@@ -22,6 +22,9 @@ python src/pipeline.py
 python src/run_queries.py
 ```
 
+## Results
+![Summary chart](summary_chart.png)
+
 ## Structure
 ```
 src/pipeline.py      # extract, transform, quality checks, load
