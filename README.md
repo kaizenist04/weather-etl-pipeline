@@ -20,6 +20,7 @@ Python, Pandas, Requests, SQLite, SQL (GROUP BY, CTEs, window functions)
 pip install -r requirements.txt
 python src/pipeline.py
 python src/run_queries.py
+python src/make_chart.py
 ```
 
 ## Results
@@ -31,6 +32,7 @@ src/pipeline.py      # extract, transform, quality checks, load
 src/run_queries.py   # runs the SQL queries
 sql/queries.sql      # analysis queries
 data/                # raw JSON and weather.db (git-ignored)
+src/make_chart.py    # creates the summary chart
 ```
 
 ## Possible improvements
