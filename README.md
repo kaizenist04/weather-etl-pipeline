@@ -13,7 +13,7 @@ Python, Pandas, Requests, SQLite, SQL (GROUP BY, CTEs, window functions)
 - **Transform:** renames columns, fixes types, removes duplicates and nulls, adds average temperature.
 - **Quality checks:** fails if data is empty, duplicated, null, or has impossible values.
 - **Load:** writes to a SQLite table with a (city, date) primary key; safe to re-run.
-- **Analyse:** `sql/queries.sql` has 5 queries (aggregation, JOIN with CTE, ROW_NUMBER, LAG).
+- **Analyse:** `sql/queries.sql` has queries (aggregation, JOIN with CTE, ROW_NUMBER, LAG).
 
 ## How to run
 ```bash
